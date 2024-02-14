@@ -1,0 +1,54 @@
+Task: Building a File Management API
+
+Introduction: The goal is to create a simple file management API using Node.js. The API should allow users to upload, list, and delete files. Additionally, implement file categorization functionality.
+
+Requirements:
+
+**Code Structuring:**
+
+- Organize the project into appropriate directories and files.
+- Implement a clear folder structure for routes, controllers, and utilities.
+- Follow a consistent naming convention.
+
+**Optimization:**
+
+- Implement file upload and deletion efficiently.
+- Minimize unnecessary code execution.
+- Utilize async/await for asynchronous operations.
+- Utilize caching mechanisms for improved performance.
+- Handle errors gracefully.
+
+**Responsibility Division:**
+
+- Divide the application into well-defined and reusable modules.
+- Implement SOLID principles for better maintainability.
+- Use Dependency Injection for loose coupling.
+
+**Architecture:**
+
+- Define a clear architecture for the application (e.g., routing, controllers).
+- Use middleware for common functionalities (e.g., error handling, logging).
+
+**Data Flow:**
+
+- Ensure a unidirectional data flow within the application.
+- Use advanced serialization techniques for efficient data exchange.
+- Implement streaming for large file operations.
+
+**Data Storage:**
+
+- Store file data in a local directory.
+- Implement basic server-side storage for user's file data.
+- Implement data encryption for sensitive information.
+
+**Latest Tools and Libraries:**
+
+- Use the latest stable version of Node.js.
+- Implement routing using Express.js.
+- Utilize a middleware for handling file uploads (e.g., multer).
+
+**Bonus:**
+
+- Implement file versioning.
+- Add authentication for API endpoints.
+- Implement file search functionality.
